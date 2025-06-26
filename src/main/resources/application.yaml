@@ -1,11 +1,11 @@
 server:
-  port: ${PORT:8080}
+  port: 8080
 
 spring:
   datasource:
-    url: ${SPRING_DATASOURCE_URL}
-    username: ${SPRING_DATASOURCE_USERNAME}
-    password: ${SPRING_DATASOURCE_PASSWORD}
+    url: jdbc:postgresql://dpg-d10slk3e5dus73alivjg-a.oregon-postgres.render.com:5432/test1
+    username: david
+    password: Iim8Nbo4Q9wShqOtuOwYyqTjXSZQiPna
     driver-class-name: org.postgresql.Driver
     hikari:
       connection-init-sql: SET client_encoding TO 'UTF8'
@@ -20,8 +20,8 @@ spring:
   mail:
     host: smtp.gmail.com
     port: 587
-    username: ${MAIL_USERNAME}
-    password: ${MAIL_PASSWORD}
+    username: wmmartinezhdz@gmail.com
+    password: qcen wmeh mqhf gaer
     properties:
       mail:
         smtp:
@@ -35,8 +35,8 @@ spring:
     active: prod
 
 jwt:
-  secret: ${JWT_SECRET}
+  secret: pN2qS7vm98Bq0W7Vm2P0vH8m7dPQsB9Z+oP7FqLzXKo=
 
 admin:
-  email: ${ADMIN_EMAIL}
-  password: ${ADMIN_PASSWORD}
+  email: admin@mercaduca.com
+  password: superSegura123!
