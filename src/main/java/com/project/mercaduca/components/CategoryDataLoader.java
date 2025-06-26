@@ -7,9 +7,10 @@ import org.springframework.stereotype.Component;
 
 import java.util.List;
 
+//implements CommandLineRunner
 @Component
-public class CategoryDataLoader implements CommandLineRunner {
-
+public class CategoryDataLoader {
+/*
     private final CategoryRepository categoryRepository;
 
     public CategoryDataLoader(CategoryRepository categoryRepository) {
@@ -29,5 +30,5 @@ public class CategoryDataLoader implements CommandLineRunner {
             categoryRepository.saveAll(initialCategories);
             System.out.println("✅ Categorías iniciales cargadas correctamente.");
         }
-    }
+    }*/
 }

@@ -9,8 +9,8 @@ import java.util.List;
 
 
 @Component
-public class RoleDataLoader implements CommandLineRunner {
-
+public class RoleDataLoader {
+/*
     private final RoleRepository roleRepository;
 
     public RoleDataLoader(RoleRepository roleRepository) {
@@ -27,5 +27,5 @@ public class RoleDataLoader implements CommandLineRunner {
             roleRepository.saveAll(roles);
             System.out.println("✅ Roles iniciales cargados");
         }
-    }
+    }*/
 }

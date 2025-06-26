@@ -11,8 +11,8 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Component;
 
 @Component
-public class AdminDataLoader implements CommandLineRunner {
-
+public class AdminDataLoader  {
+/*
     private final UserRepository userRepository;
     private final RoleRepository roleRepository;
     private final PasswordEncoder passwordEncoder;
@@ -44,5 +44,5 @@ public class AdminDataLoader implements CommandLineRunner {
             userRepository.save(admin);
             System.out.println("✅ Usuario admin creado");
         }
-    }
+    }*/
 }

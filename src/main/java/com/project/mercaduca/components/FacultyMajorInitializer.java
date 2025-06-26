@@ -11,7 +11,7 @@ import java.util.List;
 
 @Component
 public class FacultyMajorInitializer {
-
+/*
     private final FacultyRepository facultyRepo;
     private final MajorRepository majorRepo;
 
@@ -67,5 +67,5 @@ public class FacultyMajorInitializer {
                 new Major(null, "Licenciatura en Economía", f7),
                 new Major(null, "Licenciatura en Finanzas (semipresencial)", f7)
         ));
-    }
+    }*/
 }
